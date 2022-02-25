@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "body-parser": "^1.19.2",
     "express": "^4.17.3",
     "mongoose": "^6.2.2"
   },
@@ -8,9 +9,13 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "backend": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
